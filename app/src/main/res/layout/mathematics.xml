@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_drawable">>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp">
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time Remaining:"
+                android:textSize="16dp"
+                android:layout_marginLeft="50dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/timer_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginLeft="50dp"
+                android:textSize="16sp"
+                android:layout_toRightOf="@id/text1"
+                android:textColor="#d50000"
+                />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/welcome_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="16sp"
+            android:layout_marginLeft="32dp"
+            android:textColor="#43a047"/>
+
+        <TextView
+            android:id="@+id/text_view_question_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="1.    If Logx (1 / 8) = - 3 / 2, then x is equal to "
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RadioGroup1">
+            <RadioButton
+                android:id="@+id/option_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="24dp"
+                android:text="- 4 "
+                android:padding="16dp"
+                />
+            <RadioButton
+                android:id="@+id/option_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 "
+                android:layout_marginLeft="24dp"
+                android:padding="16dp"/>
+            <RadioButton
+                android:id="@+id/option_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 / 4 "
+                android:padding="16dp"
+                android:layout_marginLeft="24dp"
+                />
+            <RadioButton
+                android:id="@+id/option_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 "
+                android:padding="16dp"
+                android:layout_marginLeft="24dp"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/text_view_question_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="2.    20 % of 2 is equal to "
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RadioGroup2">
+            <RadioButton
+                android:id="@+id/option_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="24dp"
+                android:text="20"
+                android:padding="16dp"
+                />
+            <RadioButton
+                android:id="@+id/option_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 "
+                android:layout_marginLeft="24dp"
+                android:padding="16dp"/>
+            <RadioButton
+                android:id="@+id/option_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.4"
+                android:padding="16dp"
+                android:layout_marginLeft="24dp"
+                />
+            <RadioButton
+                android:id="@+id/option_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.04"
+                android:padding="16dp"
+                android:layout_marginLeft="24dp"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/text_view_question_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="3.    If Log4 (x) = 12, then log 2 (x / 4) is equal to  "
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RadioGroup3">
+            <RadioButton
+                android:id="@+id/option_a3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="24dp"
+                android:text="11"
+                android:padding="16dp"
+                />
+            <RadioButton
+                android:id="@+id/option_b3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="48"
+                android:layout_marginLeft="24dp"
+                android:padding="16dp"/>
+            <RadioButton
+                android:id="@+id/option_c3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-12"
+                android:padding="16dp"
+                android:layout_marginLeft="24dp"
+                />
+            <RadioButton
+                android:id="@+id/option_d3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="22"
+                android:padding="16dp"
+                android:layout_marginLeft="24dp"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/text_view_question_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="4.    The population of a country increased by an average of 2% per year from 2000 to 2003. If the population of this country was 2 000 000 on December 31, 2003, then the population of this country on January 1, 2000, to the nearest thousand would have been"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RadioGroup4">
+            <RadioButton
+                android:id="@+id/option_a4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="24dp"
+                android:text="1 846 000"
+                android:padding="16dp"
+                />
+            <RadioButton
+                android:id="@+id/option_b4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 852 000 "
+                android:layout_marginLeft="24dp"
+                android:padding="16dp"/>
+            <RadioButton
+                android:id="@+id/option_c4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 000 000"
+                android:padding="16dp"
+                android:layout_marginLeft="24dp"
+                />
+            <RadioButton
+                android:id="@+id/option_d4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 500 000"
+                android:padding="16dp"
+                android:layout_marginLeft="24dp"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/text_view_question_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="5.    f is a quadratic function whose graph is a parabola opening upward and has a vertex on the x-axis. The graph of the new function g defined by g(x) = 2 - f(x - 5) has a range defined by the interval "
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RadioGroup5">
+            <RadioButton
+                android:id="@+id/option_a5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="24dp"
+                android:text="[ -5 , + infinity)"
+                android:padding="16dp"
+                />
+            <RadioButton
+                android:id="@+id/option_b5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[ 2 , + infinity)"
+                android:layout_marginLeft="24dp"
+                android:padding="16dp"/>
+            <RadioButton
+                android:id="@+id/option_c5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="( - infinity , 2]"
+                android:padding="16dp"
+                android:layout_marginLeft="24dp"
+                />
+            <RadioButton
+                android:id="@+id/option_d5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="( - infinity , 0] "
+                android:padding="16dp"
+                android:layout_marginLeft="24dp"/>
+        </RadioGroup>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="8dp"
+            android:text="Submit"
+            android:layout_gravity="center_horizontal"
+            android:onClick="submit"
+            />
+
+    </LinearLayout>
+</ScrollView>

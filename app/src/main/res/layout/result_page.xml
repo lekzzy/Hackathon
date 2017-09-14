@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#81c784">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo" />
+
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="24sp"
+        tools:fontFamily="cursive"
+        android:textColor="#000000"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/join_text"
+            android:text="To share your score with friends"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/share_text"
+            android:text="Click here"
+            android:textColor="#5b85e1"
+
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true"
+            android:onClick="share"
+            android:textSize="20sp"
+            android:layout_below="@id/join_text"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

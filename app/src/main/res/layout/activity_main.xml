@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#304ffe"
+    tools:context="com.example.aderelemaryidowu.hackathon.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/vnc2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Welcome User"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:textAlignment="center"/>
+</RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="19sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:lineSpacingExtra="5dp"
+        android:fontFamily="serif"
+        android:text="Carefully read the rules before you begin. We hope you find this interesting. You will be required to enter your name, phone number and year of birth. We would be working mainly with the last digits of your year of birth and phone number. If the addition of the numbers mentioned above is even, your test would be based on Mathematics, but if odd, you will be tested English Language"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="proceed"
+            android:text="proceed"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="20dp"/>
+    </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
